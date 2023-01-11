@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{F606B642-E9B1-4901-AF5F-9B41419802E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{30A34D1F-40F5-44FC-8428-F63AE31D4D1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoffeeShop.Domain.Entities", "Domain\CoffeeShop.Domain.Entities\CoffeeShop.Domain.Entities.csproj", "{A4EB9464-C2F0-4018-88F8-DBB061372B6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeShop.Domain.Application", "Domain\CoffeeShop.Domain.Application\CoffeeShop.Domain.Application.csproj", "{D1D4BBC7-11E3-40AC-9B0E-50406980AB56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{93B132A7-1BF3-489C-BB56-DFA25D2F6046}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeShop.Infrastructure", "Infrastructure\CoffeeShop.Infrastructure\CoffeeShop.Infrastructure.csproj", "{6A81EA80-C34E-446A-AF23-D3B72D993C8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4EB9464-C2F0-4018-88F8-DBB061372B6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4EB9464-C2F0-4018-88F8-DBB061372B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4EB9464-C2F0-4018-88F8-DBB061372B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4EB9464-C2F0-4018-88F8-DBB061372B6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1D4BBC7-11E3-40AC-9B0E-50406980AB56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D4BBC7-11E3-40AC-9B0E-50406980AB56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D4BBC7-11E3-40AC-9B0E-50406980AB56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D4BBC7-11E3-40AC-9B0E-50406980AB56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A81EA80-C34E-446A-AF23-D3B72D993C8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A81EA80-C34E-446A-AF23-D3B72D993C8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A81EA80-C34E-446A-AF23-D3B72D993C8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A81EA80-C34E-446A-AF23-D3B72D993C8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30A34D1F-40F5-44FC-8428-F63AE31D4D1F} = {F606B642-E9B1-4901-AF5F-9B41419802E4}
+		{A4EB9464-C2F0-4018-88F8-DBB061372B6E} = {30A34D1F-40F5-44FC-8428-F63AE31D4D1F}
+		{D1D4BBC7-11E3-40AC-9B0E-50406980AB56} = {30A34D1F-40F5-44FC-8428-F63AE31D4D1F}
+		{93B132A7-1BF3-489C-BB56-DFA25D2F6046} = {F606B642-E9B1-4901-AF5F-9B41419802E4}
+		{6A81EA80-C34E-446A-AF23-D3B72D993C8F} = {93B132A7-1BF3-489C-BB56-DFA25D2F6046}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70AF0385-0DDD-4155-913E-36910627BAEA}
+	EndGlobalSection
+EndGlobal

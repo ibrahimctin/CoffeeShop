@@ -1,4 +1,5 @@
-﻿using CoffeeShop.Domain.Entities.DbEntities.Common;
+﻿using CoffeeShop.Domain.Entities.DbEntities;
+using CoffeeShop.Domain.Entities.DbEntities.Common;
 using CoffeeShop.Domain.Entities.DbEntities.IdenetityUser;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
@@ -14,7 +15,9 @@ namespace CoffeeShop.Infrastructure.EfContext
         {
         }
 
-       
+        public DbSet<CoffeeProduct> CoffeeProducts { get; set; }
+        public DbSet<CoffeeCategory> CoffeeCategories { get; set; }
+
 
         public virtual async Task<int> SaveChangesAsync(string username = "SYSTEM")
         {

@@ -6,4 +6,25 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Features\CoffeeCategory\**" />
+    <Compile Remove="Features\CoffeeProduct\**" />
+    <EmbeddedResource Remove="Features\CoffeeCategory\**" />
+    <EmbeddedResource Remove="Features\CoffeeProduct\**" />
+    <None Remove="Features\CoffeeCategory\**" />
+    <None Remove="Features\CoffeeProduct\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\CoffeeShop.Infrastructure\CoffeeShop.Infrastructure.csproj" />
+    <ProjectReference Include="..\CoffeeShop.Domain.Application.DTOs\CoffeeShop.Domain.Application.DTOs.csproj" />
+    <ProjectReference Include="..\CoffeeShop.Domain.Entities\CoffeeShop.Domain.Entities.csproj" />
+  </ItemGroup>
+
 </Project>

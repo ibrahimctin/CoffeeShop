@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{6522C69C-1EA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeShop.API", "API\CoffeeShop.API\CoffeeShop.API.csproj", "{570CA651-660D-45CA-9CFE-32A646B3843F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeShop.Domain.Application.DTOs", "Domain\CoffeeShop.Domain.Application.DTOs\CoffeeShop.Domain.Application.DTOs.csproj", "{77E38F8F-AE80-4487-A4F2-B1FDD65FF4A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{570CA651-660D-45CA-9CFE-32A646B3843F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{570CA651-660D-45CA-9CFE-32A646B3843F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{570CA651-660D-45CA-9CFE-32A646B3843F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77E38F8F-AE80-4487-A4F2-B1FDD65FF4A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77E38F8F-AE80-4487-A4F2-B1FDD65FF4A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77E38F8F-AE80-4487-A4F2-B1FDD65FF4A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77E38F8F-AE80-4487-A4F2-B1FDD65FF4A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{6A81EA80-C34E-446A-AF23-D3B72D993C8F} = {93B132A7-1BF3-489C-BB56-DFA25D2F6046}
 		{6522C69C-1EAF-4E80-9DFE-6B9CF9EE4832} = {F606B642-E9B1-4901-AF5F-9B41419802E4}
 		{570CA651-660D-45CA-9CFE-32A646B3843F} = {6522C69C-1EAF-4E80-9DFE-6B9CF9EE4832}
+		{77E38F8F-AE80-4487-A4F2-B1FDD65FF4A5} = {30A34D1F-40F5-44FC-8428-F63AE31D4D1F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {70AF0385-0DDD-4155-913E-36910627BAEA}

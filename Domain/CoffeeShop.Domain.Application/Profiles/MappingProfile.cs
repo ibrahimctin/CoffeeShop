@@ -11,6 +11,7 @@ namespace CoffeeShop.Domain.Application.Profiles
         {
             CreateMap<CoffeeCategory, CreateCoffeeCategoryRequest>().ReverseMap();
             CreateMap<CoffeeCategory, CoffeeCategoryDetail>().ReverseMap();
+            CreateMap<CoffeeCategory, UpdateCoffeeCategoryRequest>().ReverseMap();
         }
     }
 }

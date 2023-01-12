@@ -39,5 +39,21 @@ namespace CoffeeShop.API.Controllers
 
             return result.ApiResult;
         }
+
+        [HttpPost("UpdateCoffeeCategory")]
+        public async Task<IActionResult> UpdateCoffeeCategory([FromBody] UpdateCoffeeCategoryCommand updateCoffeeCategoryCommand)
+        {
+            var result = await _mediator.Send(updateCoffeeCategoryCommand);
+
+            return result.Success is false ? result.ApiResult : NoContent();
+        }
+
+        [HttpDelete("DeleteCoffeeCategory")]
+        public async Task<IActionResult> DeleteCoffeeCategory(string id, CancellationToken cancellationToken)
+        {
+            var result = await _mediator.Send(new DeleteCoffeeCategoryCommand { Id = id }, cancellationToken);
+
+            return result.ApiResult;
+        }
     }
 }

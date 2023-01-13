@@ -17,7 +17,7 @@ namespace CoffeeShop.API.Controllers
             _mediator = mediator;
         }
 
-        [HttpPost("CreateCoffee")]
+        [HttpPost("CreateCoffeeCategory")]
         public async Task<IActionResult> CreateCoffeeCategory([FromBody] CreateCoffeeCategoryCommand createCoffeeCategoryCommand)
         {
             var result = await _mediator.Send(createCoffeeCategoryCommand);

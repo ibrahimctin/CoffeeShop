@@ -27,4 +27,9 @@
     <ProjectReference Include="..\CoffeeShop.Domain.Entities\CoffeeShop.Domain.Entities.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Features\CoffeeProducts\Handlers\Queries\" />
+    <Folder Include="Features\CoffeeProducts\Requests\Queries\" />
+  </ItemGroup>
+
 </Project>

@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="CoffeeCategory\ResponseDtos\" />
-    <Folder Include="CoffeeProduct\RequestDtos\" />
     <Folder Include="CoffeeProduct\ResponseDtos\" />
   </ItemGroup>
 

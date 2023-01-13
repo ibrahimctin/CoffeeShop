@@ -1,9 +1,10 @@
-﻿using CoffeeShop.Domain.Entities.DbEntities.Common;
+﻿using CoffeeShop.Domain.Application.DTOs.CoffeeCategory.ResponseDtos;
+using CoffeeShop.Domain.Application.DTOs.Common;
 using System.ComponentModel.DataAnnotations;
 
-namespace CoffeeShop.Domain.Entities.DbEntities
+namespace CoffeeShop.Domain.Application.DTOs.CoffeeProduct.RequestDtos
 {
-    public class CoffeeProduct:BaseDomainEntity
+    public class UpdateCoffeeProductRequest:BaseDto
     {
         public string CoffeeName { get; set; }
         public string Description { get; set; }
@@ -12,8 +13,7 @@ namespace CoffeeShop.Domain.Entities.DbEntities
         public string Origin { get; set; }
         public string CoffeeCategoryId { get; set; }
 
-        public CoffeeCategory Name { get; set; }
+        public CoffeeCategoryDetail Name { get; set; }
 
-        public ICollection<CoffeeCategory> CoffeeCategories { get; set; }
     }
 }
